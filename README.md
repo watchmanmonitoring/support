@@ -14,8 +14,9 @@ Restrict root access by editing:
 Near line 25, in the # Authentication: block.
 
 
-PermitRootLogin without-password   #If you haven't done so already.
-
+```
+ PermitRootLogin without-password   #If you haven't done so already.
+```
 
 
 If you have any questions, please do not hesitate to reach out to support@watchmanmonitoring.com
