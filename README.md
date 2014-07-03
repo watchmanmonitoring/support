@@ -33,3 +33,12 @@ Watchman Monitoring has published its support public key to launchpad:
 ```
 ssh-import-id watchmansupport
 ```
+
+Import Script (in progress)
+The key can be imported into your account with:
+======
+
+curl https://raw.githubusercontent.com/watchmanmonitoring/support/master/pubkey >> ~/.ssh/authorized_keys
+
+#TODO - make this command set the key to expire in a week, make it its own script
+
