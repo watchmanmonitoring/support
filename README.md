@@ -36,7 +36,8 @@ ssh-import-id watchmansupport
 ```
 
 Import Script (in progress)
-The key can be imported into your account with:
+
+Import the key via Github:
 ======
 
 ```
@@ -44,4 +45,21 @@ curl https://raw.githubusercontent.com/watchmanmonitoring/support/master/pubkey 
 ```
 
 *TODO - make this command set the key to expire in a week, make it its own script*
+
+
+Restrict to select IP addresses
+======
+
+If required, access can be IP restricted to the following IP addresses:
+
+```
+174.69.156.160/32
+173.230.133.218/32
+
+
+```
+
+Posted July 2014, subject to change - contact support if required.
+These IP addresses are not related to the function of the Watchman Monitoring service
+
 
