@@ -50,16 +50,12 @@ curl https://raw.githubusercontent.com/watchmanmonitoring/support/master/pubkey 
 Restrict to select IP addresses
 ======
 
-If required, access can be IP restricted to the following IP addresses:
+If required, access can be IP restricted to the following IP address:
 
 ```
-174.69.156.160/32
 173.230.133.218/32
-
-
 ```
 
-Posted July 2014, subject to change - contact support if required.
-These IP addresses are not related to the function of the Watchman Monitoring service
+Note that this IP address is not related to the function of the Watchman Monitoring service
 
 
