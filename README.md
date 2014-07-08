@@ -40,10 +40,10 @@ curl https://raw.githubusercontent.com/watchmanmonitoring/support/master/pubkey 
 *TODO - make this command set the key to expire in a week, make it its own script*
 
 
-Restrict to select IP addresses
+Restrict to the source IP address
 ======
 
-If required, access can be IP restricted to the following IP address:
+If required, access can be IP restricted to allow only the following IP address:
 
 ```
 173.230.133.218/32
