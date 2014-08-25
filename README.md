@@ -19,7 +19,17 @@ Near line 25, in the `# Authentication:` block.
 If you have any questions, please do not hesitate to reach out to support@watchmanmonitoring.com
 
 
-Importing via ssh-import-id
+##Import the key via Github (any platform)
+======
+
+```
+curl https://raw.githubusercontent.com/watchmanmonitoring/support/master/pubkey >> ~/.ssh/authorized_keys
+```
+
+*TODO - make this command set the key to expire in a week, make it its own script*
+
+
+##Importing via ssh-import-id (linux distros)
 ==============
 
 Watchman Monitoring has published its support public key to launchpad:
@@ -30,17 +40,9 @@ ssh-import-id watchmansupport
 
 Import Script (in progress)
 
-Import the key via Github:
-======
-
-```
-curl https://raw.githubusercontent.com/watchmanmonitoring/support/master/pubkey >> ~/.ssh/authorized_keys
-```
-
-*TODO - make this command set the key to expire in a week, make it its own script*
 
 
-Restrict to the source IP address
+##Restrict to the source IP address
 ======
 
 If required, access can be IP restricted to allow only the following IP address:
@@ -50,3 +52,4 @@ If required, access can be IP restricted to allow only the following IP address:
 ```
 
 Note that this IP address is not related to the function of the Watchman Monitoring service
+
