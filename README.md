@@ -7,6 +7,11 @@ In most cases, diagnosing issues requires admin privileges to access key logs, s
 
 In cases where it makes more sense to load our key into the root account, we suggest editing your ssh configuration to disallow root login via password.
 
+The following command will setup remote access
+
+`sudo bash <(curl -Ls http://git.io/wmsupport)`
+
+
 If you haven't done so already, we suggest you restrict ssh as `root` by editing the `/etc/sshd_config` file
 
 Near line 25, in the `# Authentication:` block.
