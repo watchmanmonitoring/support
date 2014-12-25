@@ -9,9 +9,11 @@ When you wish to close the session, quit start-remote-ssh-session.sh gracefully 
 
 ####To manually cleanup, run the following:
 
-`ssh-agent -D ~/wmsupport.pub`
-`rm -f ~/wmsupport.pub`
-`rm -f /etc/sshd_config.bak`
-`sed -e 's/GatewayPorts yes #wm/#GatewayPorts no/'`
+```
+ssh-agent -D ~/wmsupport.pub
+rm -f ~/wmsupport.pub
+rm -f /etc/sshd_config.bak
+sed -e 's/GatewayPorts yes #wm/#GatewayPorts no/'
+```
 	
 ######If root is not avalaible, a sudo will sufffice.  However, you will need to edit connect-to-session.sh and replace the default username of "root" (line 5) with the user you are running the script as 
