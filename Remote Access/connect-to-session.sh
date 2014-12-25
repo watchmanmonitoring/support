@@ -2,4 +2,4 @@
 set -i
 
 ssh support@support.watchmanmonitoring.com
-ssh destination-user@localhost -p4040
+ssh root@localhost -p4040
