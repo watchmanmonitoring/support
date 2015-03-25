@@ -1,0 +1,1 @@
+cp /Library/MonitoringClient/ClientSettings.plist /Library/MonitoringClient/ClientData/ClientSettingsBackup.plist && grep -v "check_specified_applications.plugin" /Library/MonitoringClient/ClientData/ClientSettingsBackup.plist > /Library/MonitoringClient/ClientSettings.plist
