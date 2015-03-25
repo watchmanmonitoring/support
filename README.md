@@ -56,5 +56,4 @@ If required, access can be IP restricted to allow only the following IP address:
 173.230.133.218/32
 ```
 
-Note that this IP address is not related to the function of the Watchman Monitoring service
 
