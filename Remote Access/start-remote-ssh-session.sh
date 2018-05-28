@@ -10,7 +10,7 @@ function cleanup {
 }
 trap cleanup EXIT
 
-sed -i.bak 's/#GatewayPorts no/GatewayPorts yes #wm/g' /etc/sshd_config
+sed -i.bak 's/#GatewayPorts no/GatewayPorts yes #wm/g' /etc/ssh/sshd_config
 #copy down key
 curl https://support.watchmanmonitoring.com/wmsupport.pub -o ~/wmsupport.pub
 chmod 600 ~/wmsupport.pub
